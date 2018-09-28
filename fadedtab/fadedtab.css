@@ -1,0 +1,258 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	text-align: left;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	background-image:url(background.png);
+	background-repeat:repeat-x;
+}
+
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+
+#header
+{
+background-image:url(tab.png);
+background-repeat:no-repeat;
+height:100px;
+width:427px;
+margin-left:42px;
+margin-top:88px;
+padding-top:18px;
+}
+
+#header .logo
+{
+height:72px;
+width:72px;
+background-image:url(logo1.png);  //there are 5 different logos (logo1.png, logo2.png ...)
+background-repeat:no-repeat;
+float:left;
+margin-left:23px;
+}
+
+#header h1
+{
+margin-left:15px;
+margin-top:10px;
+position: relative;
+float:left;
+color:#3D4130;
+text-align:left;
+font-size:34px;
+width:302px;
+line-height:normal;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+#header h2
+{
+position: relative;
+margin-left:10px;
+margin-top:2px;
+float:left;
+color:#CCCF76;
+text-align:left;
+font-size:14px;
+width:311px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+#bottomContent
+{
+clear:both;
+position:relative;
+height:100%;
+margin-top:73px;
+margin-left:50px;
+width:1250px;
+}
+
+#bottomContent .navColumn
+{
+margin-left:0px;
+width:419px;
+background-image:url(repeatBackNavAlpha.png);
+background-repeat:repeat-y;
+float:left;
+}
+
+#bottomContent .navColumn .overview
+{
+width:350px;
+padding:5px;
+background-color:#F9FAF5;
+border:dashed 2px;
+border-color:#EAECC7;
+margin-top:10px;
+}
+
+
+#bottomContent .navColumn .link
+{
+width:369px;
+height:65px;
+line-height:65px;
+font:Arial, Helvetica, sans-serif;
+font-size:20px;
+background-image:url(arrow_link_background.png);
+background-repeat:no-repeat;
+padding-left:50px;
+}
+
+#bottomContent .navColumn .link:hover
+{
+background-image:url(rollover_back65.png);
+background-repeat:no-repeat;
+}
+
+a
+{
+color:#777B2B;
+text-decoration:none;
+}
+
+a:hover
+{
+color:#CACE73;
+text-decoration:none;
+border-bottom:dotted 1px;
+}
+
+
+#bottomContent .contentColumn
+{
+float:left;
+margin-left:0px;
+width:550px;
+}
+
+
+.contentTop
+{
+width:519px;
+height:29px;
+background-repeat:no-repeat;
+background-image:url(contentBoxTop.png);
+}
+
+.contentBottom
+{
+width:519px;
+height:29px;
+background-repeat:no-repeat;
+background-image:url(contentBoxBottom.png);
+margin-bottom:15px;
+}
+
+
+.contentMain
+{
+width:489px;
+height:auto;
+background-repeat:no-repeat;
+background-image:url(contentBoxBack.png);
+background-repeat:repeat-y;
+padding-left:18px;
+padding-right:12px;
+}
+
+.contentMain h1
+{
+margin-left:21px;
+font-size:21px;
+line-height:normal;
+margin-bottom:10px;
+font-weight:bold;
+color:#071027;
+}
+
+
+.comments
+{
+font-size:11px;
+font-style:italic;
+padding:10px;
+margin-left:25px;
+}
+
+
+#bottomContent #navBottom{
+clear:both;
+width:419px;
+height:20px;
+background-image:url(tab_bottom.png);
+background-repeat:no-repeat;
+float:left;
+}
+
+.contentTitle
+{
+width:700px;
+height:44px;
+margin-top:20px;
+margin-left:25px;
+margin-right:25px;
+background-image:url(tab_back.png);
+background-repeat:no-repeat;
+}
+
+.contentTitle h1
+{
+margin-left:21px;
+padding-top:8px;
+font-size:17px;
+font-weight:bold;
+color:#071027;
+}
+
+
+.contentText
+{
+width:680px;
+padding-left:30px;
+padding-right:30px;
+font-size:13px;
+color:#030712;
+line-height:30px;
+}
+
+
+#footer {
+width: 750px;
+height:49px;
+background: url(footer.png) no-repeat;
+text-align:center;
+font-size:9px;
+color:#223F8D;
+padding-top:36px;
+}
+
+h4
+{
+color:#777B2B;
+font-size:9px;
+text-align:center;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
